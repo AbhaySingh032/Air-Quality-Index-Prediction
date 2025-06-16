@@ -28,6 +28,7 @@ AQI Bucket values include: Good, Satisfactory, Moderate, Poor, Very Poor, Severe
 
 # 📊 Notebooks Overview
 
+
 **📘 city_day.ipynb**
 
 Handles city_day.csv dataset
@@ -47,6 +48,7 @@ Fine-grained hourly analysis
 Detects intra-day pollutant fluctuations
 
 Real-time AQI prediction modeling
+
 
 # 🎯 Objectives
 
@@ -105,9 +107,9 @@ pip install -r requirements.txt
 
 **Launch analysis notebooks**
 
-jupyter notebook notebooks/city_day.ipynb
+jupyter notebook notebooks/BOOTCAMP_PROJECT_CITY_DAY.ipynb
 
-jupyter notebook notebooks/city_hour.ipynb
+jupyter notebook notebooks/BOOTCAMP_PROJECT_CITY_HOUR.ipynb
 
 
 # 📂 Folder Structure
@@ -115,14 +117,19 @@ jupyter notebook notebooks/city_hour.ipynb
 Air-Quality-Index-Prediction/
 
 ├── data/
+
 │   ├── city_day.csv
+
 │   └── city_hour.csv
 
 ├── notebooks/
-│   ├── city_day.ipynb
-│   └── city_hour.ipynb
+
+│   ├── BOOTCAMP_PROJECT_CITY_DAY.ipynb
+
+│   └── BOOTCAMP_PROJECT_CITY_HOUR.ipynb
 
 ├── models/
+
 │   └── saved_model.pkl
 
 ├── outputs/
